@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmación de Pedido</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .telefono {
+      width: 320px;
+      height: 680px;
+      background-color: #fff;
+      border: 16px solid black;
+      border-radius: 40px;
+      margin: 20px auto;
+      overflow-y: auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      position: relative;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .logo-circle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .username {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .icono-campana {
+      font-size: 18px;
+    }
+
+    .cancelar {
+      color: #000;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .titulo-opciones {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #2a4b8d;
+      margin: 10px 0;
+      gap: 5px;
+    }
+
+    .link-icon {
+      width: 14px;
+    }
+
+    .metodos-pago {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 15px 0;
+    }
+
+    .metodos-pago img {
+      width: 100%;
+      max-height: 40px;
+      object-fit: contain;
+    }
+
+    .gracias {
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .tiempo {
+      font-size: 14px;
+      margin: 10px 0 20px;
+    }
+
+    .enlaces {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-size: 14px;
+      color: #2a4b8d;
+      gap: 6px;
+    }
+
+    .enlaces a {
+      text-decoration: none;
+      color: #2a4b8d;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 25px;
+      color: gray;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="telefono">
+  <!-- Encabezado -->
+  <div class="top-bar">
+    <div class="logo-circle">
+      <img src="https://i.postimg.cc/RV6T8gq2/LOGO-DE-LA-APP.png" alt="Logo" class="logo">
+      <div class="username">@suanrolls</div>
+    </div>
+    <div class="icono-campana">🔔</div>
+  </div>
+
+  <div class="cancelar">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CANCELAR PEDIDO</div>
+
+  <div class="titulo-opciones">
+    <br>
+    <img src="https://i.postimg.cc/QCVs3HzN/AGARRADOR-Xd.png" alt="link" class="link-icon">
+    OPCIONES DE PAGO
+  </div>
+
+  <!-- Métodos de pago -->
+  <div class="metodos-pago">
+    <img src="https://i.postimg.cc/qMtfktkS/BCP.png" alt="BCP">
+    <img src="https://i.postimg.cc/Pqj0z2mn/INTERBANK.png" alt="Interbank">
+    <img src="https://i.postimg.cc/43Qq8V57/IZIPAY.png" alt="Izipay">
+    <img src="https://i.postimg.cc/L5wbqTH7/MERCADO-LIBRE.png" alt="Mercado Libre">
+    <img src="https://i.postimg.cc/2Sptr29L/PLIN.png" alt="Plin">
+    <img src="https://i.postimg.cc/sX26w8xq/YAPE.png" alt="Yape">
+  </div>
+
+  <hr>
+
+  <div class="gracias">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gracias, muy <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pronto estará tu <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pedido :)</div>
+  <div style="text-align: center; font-size: 14px; margin: 2px 0;">
+    ◄──────────────────────►
+  </div>
+  
+  <div class="tiempo">Tiempo estimado 5 a 10 MINUTOS</div>
+
+  <!-- Enlaces -->
+  <div class="enlaces">
+    <a href="#"><img src="https://i.postimg.cc/QCVs3HzN/AGARRADOR-Xd.png" class="link-icon">Recogo</a>
+    <a href="#"><img src="https://i.postimg.cc/QCVs3HzN/AGARRADOR-Xd.png" class="link-icon">Notificación</a>
+    <a href="#"><img src="https://i.postimg.cc/QCVs3HzN/AGARRADOR-Xd.png" class="link-icon">Ayuda</a>
+  </div>
+</div>
+
+</body>
+</html>
